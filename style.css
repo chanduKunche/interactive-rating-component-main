@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: hsl(216, 12%, 8%);
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Overpass';
+}
+
+.container {
+    background: hsl(213, 19%, 18%);
+    width: 380px;
+    padding: 30px 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.container p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container #star {
+    padding: 15px;
+    border-radius: 50%;
+    background: hsl(216, 12%, 28%);
+}
+
+.container .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Overpass';
+}
+
+.container .btns button {
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: none;
+    background: hsl(216, 12%, 28%);
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.container #sub {
+    margin-top: 20px;
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: 'Overpass';
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.container .btns button:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.container .btns button:focus {
+    background: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.container #sub:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank {
+    text-align: center;
+}
+
+#rate {
+    display: inline-block;
+    padding: 5px 15px;
+    background: hsl(216, 12%, 28%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 377px) {
+    .container {
+        width: 330px;
+
+    }
+}

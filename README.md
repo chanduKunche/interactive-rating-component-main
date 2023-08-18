@@ -11,7 +11,7 @@ This is a solution to the https://www.frontendmentor.io/challenges/interactive-r
 - my-process
   - built-with
   - what-i-learned
-- author
+
 
 
 ## Overview
